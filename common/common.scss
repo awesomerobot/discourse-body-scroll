@@ -1,0 +1,22 @@
+html {
+  overflow: hidden;
+
+  .wrap {
+    max-width: unset;
+  }
+
+  #main-outlet-wrapper {
+    padding-right: 0;
+    margin: 0 auto;
+  }
+
+  #main-outlet {
+    height: calc(100dvh - var(--header-offset) - 0em) !important;
+    overflow-y: auto;
+    padding-right: 1em;
+  }
+
+  .container.posts .topic-navigation {
+    top: 0 !important;
+  }
+}
